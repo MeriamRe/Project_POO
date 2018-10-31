@@ -1,6 +1,6 @@
-package Piece;
+package piece;
 
-public enum sabType {
+public enum SabType {
 	CHEMIN, 
 	ACTION1,
 	ACTION2; 

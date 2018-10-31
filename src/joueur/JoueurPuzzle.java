@@ -1,22 +1,23 @@
-package Joueur;
+package joueur;
 
-public class joueurPuzzle extends Joueur {
-	public joueurPuzzle(int id, String pseudo, int nbPiece, int age) {
+public class JoueurPuzzle extends Joueur {
+
+	protected final int age ;
+
+	public JoueurPuzzle(int id, String pseudo, int nbPiece, int age) {
 		super(id, pseudo, nbPiece);
 		// TODO Auto-generated constructor stub
 		this.age = age ;
 	}
 
-	int age ;
-
 	@Override
-	public void Piocher() {
+	public void piocher() {
 		// TODO Auto-generated method stub
 
 	}
 
 	@Override
-	public void Poser() {
+	public void poser() {
 		// TODO Auto-generated method stub
 
 	} 
