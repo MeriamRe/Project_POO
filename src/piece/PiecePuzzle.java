@@ -1,5 +1,7 @@
 package piece;
 
+import piece.ImagePuzzle;
+
 public class PiecePuzzle extends Piece {
 	
 	private final int nbExcroissance ;
