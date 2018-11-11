@@ -34,5 +34,11 @@ public class PieceGom extends Piece {
 		return clr2;
 	}
 
+	@Override
+	public boolean estConnectable(Piece p) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 
 }

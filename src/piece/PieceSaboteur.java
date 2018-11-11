@@ -47,6 +47,12 @@ public class PieceSaboteur extends Piece {
 
 	}
 
+	@Override
+	public boolean estConnectable(Piece p) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 
 
 }

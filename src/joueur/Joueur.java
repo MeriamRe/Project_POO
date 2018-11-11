@@ -9,7 +9,7 @@ public abstract class Joueur {
 
 	private final int id;// id joueur 
 	private final String pseudo ;
-	private int nbPiece ;
+	//private int nbPiece ;
 	private int score ;
 	LinkedList<Piece> Main ; // la main de joueur
 	// Difference par rapport au diagramme de classe
@@ -19,7 +19,7 @@ public abstract class Joueur {
 	public Joueur(int id, String pseudo, int nbPiece) {
 		this.id = id ; 
 		this.pseudo = pseudo ;
-		this.nbPiece = nbPiece ;
+		//this.nbPiece = nbPiece ;
 		this.score = 0 ;
 		this.Main = new LinkedList<Piece>();
 	}
