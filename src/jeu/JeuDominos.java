@@ -1,10 +1,17 @@
 package jeu;
 
+import joueur.JoueurDominos;
+
 /**
  * Engine Dominos
  *
  */
 public class JeuDominos extends Jeu{
+
+	public JeuDominos(JoueurDominos p1, JoueurDominos p2) {
+		super(p1, p2);
+		// TODO Auto-generated constructor stub
+	}
 
 	@Override
 	public void commencerJeu() {

@@ -8,18 +8,16 @@ import piece.Piece;
 public abstract class Joueur {
 
 	private final int id;// id joueur 
-	private final String pseudo ;
-	//private int nbPiece ;
+	private String pseudo ;
 	private int score ;
 	LinkedList<Piece> Main ; // la main de joueur
 	// Difference par rapport au diagramme de classe
-	// ajouter d'une linkedList de carte
+	// ajouter une linkedList de piece
 	// A revoir concernant le type de liste approprié à utiliser(map,linkedlist...)
 
-	public Joueur(int id, String pseudo, int nbPiece) {
+	public Joueur(int id, String pseudo) {
 		this.id = id ; 
 		this.pseudo = pseudo ;
-		//this.nbPiece = nbPiece ;
 		this.score = 0 ;
 		this.Main = new LinkedList<Piece>();
 	}
@@ -52,12 +50,20 @@ public abstract class Joueur {
 		return this.pseudo ;
 	}
 
+	public LinkedList<Piece> getMain(){
+		return this.Main;
+	}
+	
 	//------SETTER------	
 	public void setScore(int a) {
 		this.score+=a ;
-
 	}
 
+	public void setPseudo(String pseudo) {
+		this.pseudo = pseudo;
+	}
+	
+	
 
 
 }

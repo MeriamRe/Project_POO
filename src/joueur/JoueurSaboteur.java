@@ -4,8 +4,8 @@ import piece.Piece;
 
 public abstract class JoueurSaboteur extends Joueur {
 
-	public JoueurSaboteur(int id, String pseudo, int nbPiece) {
-		super(id, pseudo, nbPiece);
+	public JoueurSaboteur(int id, String pseudo) {
+		super(id, pseudo);
 		// TODO Auto-generated constructor stub
 	}
 

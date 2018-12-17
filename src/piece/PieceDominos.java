@@ -5,7 +5,7 @@ public class PieceDominos extends Piece {
 	private final int[] num = new int[2];
 
 
-	public PieceDominos(double posX, double posY, int num1, int num2) {
+	public PieceDominos(int posX, int posY, int num1, int num2) {
 
 		super(posX,posY);
 		this.num[0] = num1;

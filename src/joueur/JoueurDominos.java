@@ -4,8 +4,8 @@ public class JoueurDominos extends Joueur {
 
 	protected final int age ;
 
-	public JoueurDominos(int id, String pseudo, int nbPiece, int age) {
-		super(id, pseudo, nbPiece);
+	public JoueurDominos(int id, String pseudo, int age) {
+		super(id, pseudo);
 		// TODO Auto-generated constructor stub
 		this.age = age;
 	}

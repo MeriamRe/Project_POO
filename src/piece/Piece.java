@@ -8,34 +8,34 @@ package piece;
 
 public abstract class Piece {
 
-	protected double posX ; 
-	protected double posY ;
+	protected int posX ; 
+	protected int posY ;
 	protected Orientation[] ort = {Orientation.EST, Orientation.OUEST};
 	protected boolean[] estConnecte = new boolean[4];//true si un côté correspond de la pièce est déjà connecté 
 
 
-	public Piece(double posX, double posY) {
+	public Piece(int posX, int posY) {
 		this.posX = posX ;
 		this.posY = posY ;
 	}
 
 	//------Getters & setters------
-	public double getPosX() {
+	public int getPosX() {
 		return posX;
 	}
 
 
-	public void setPosX(double posX) {
+	public void setPosX(int posX) {
 		this.posX = posX;
 	}
 
 
-	public double getPosY() {
+	public int getPosY() {
 		return posY;
 	}
 
 
-	public void setPosY(double posY) {
+	public void setPosY(int posY) {
 		this.posY = posY;
 	}
 	

@@ -8,7 +8,7 @@ public class PieceGom extends Piece {
 	private final Couleur clr2 ;
 
 
-	public PieceGom(double posX, double posY, Forme f1, Forme f2, Couleur clr1, Couleur clr2) {
+	public PieceGom(int posX, int posY, Forme f1, Forme f2, Couleur clr1, Couleur clr2) {
 		super(posX, posY) ;
 		this.forme1 = f1 ;
 		this.forme2 = f2 ;

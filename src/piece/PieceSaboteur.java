@@ -10,7 +10,7 @@ public class PieceSaboteur extends Piece {
 	//il n'y a plus d'attribut estAction
 
 
-	public PieceSaboteur  ( double posX, double posY, SabType type) {
+	public PieceSaboteur  (int posX, int posY, SabType type) {
 
 		super(posX,posY);
 		this.type = type ;
